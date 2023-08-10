@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="Quote vh-100">
+      <div class="text-center pt-5">
+        <h1>Quote of the Day</h1>
+        <p class="pt-3">Press the button below to recieve a random quote!</p>
+        <button class="btn btn-outline-warning my-2 fs-4 py-2 px-4" onclick="randomQuotes()">New Quote</button>
+      </div>
+         <div class="container py-5">
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-8">
+                    <div class="box text-center" id="box">
+                        
+                        <p id="quote">"Do not take life too seriously. You will not get out alive."</p>
+                        <p id="author">--Elbert Hubbard</p>
+                        <img src="./images/testimonial-2.jpg" alt="person" class="rounded-circle my-2" id="img">
+                    </div>
+                </div>
+            </div>
+         </div>
+    </div>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>
