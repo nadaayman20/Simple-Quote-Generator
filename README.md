@@ -2,7 +2,6 @@
 Simple code generator using JavaScript
 * It is a Website that displays a specific quote for each time when I click on a button that displays a random quote with the name of its author
 
-
 ## Demo :-
 * https://nadaayman20.github.io/Simple-Quote-Generator/
 
